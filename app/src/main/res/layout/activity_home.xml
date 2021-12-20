@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/libraryCard"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_160sdp"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:layout_marginStart="@dimen/_40sdp"
+        app:cardElevation="@dimen/_10sdp"
+        app:cardCornerRadius="@dimen/_2sdp"
+        app:cardBackgroundColor="@color/white"
+        app:cardMaxElevation="@dimen/_2sdp">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/libraryIcon"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:src="@drawable/onlinelibrary" />
+
+    <TextView
+        android:id="@+id/libraryText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/libraryIcon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Library"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12ssp"
+        android:letterSpacing="0.4"
+        android:textStyle="italic" />
+
+</RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/favouriteCard"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_160sdp"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:layout_marginStart="@dimen/_170sdp"
+        app:cardElevation="@dimen/_10sdp"
+        app:cardCornerRadius="@dimen/_2sdp"
+        app:cardBackgroundColor="@color/white"
+        app:cardMaxElevation="@dimen/_2sdp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/favouriteIcon"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_100sdp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:src="@drawable/favouriteicon" />
+
+            <TextView
+                android:id="@+id/favouriteText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/favouriteIcon"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:fontFamily="sans-serif-medium"
+                android:letterSpacing="0.4"
+                android:text="Favourite"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12ssp"
+                android:textStyle="italic" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/createBookCard"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_160sdp"
+        android:layout_marginTop="@dimen/_300sdp"
+        android:layout_marginStart="@dimen/_40sdp"
+        app:cardElevation="@dimen/_10sdp"
+        app:cardCornerRadius="@dimen/_2sdp"
+        app:cardBackgroundColor="@color/white"
+        app:cardMaxElevation="@dimen/_2sdp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/createBookIcon"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_100sdp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:src="@drawable/createbook" />
+
+            <TextView
+                android:id="@+id/createBookText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/createBookIcon"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Book"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12ssp"
+                android:letterSpacing="0.4"
+                android:textStyle="italic" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/createCategoryCard"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_160sdp"
+        android:layout_marginTop="@dimen/_300sdp"
+        android:layout_marginStart="@dimen/_170sdp"
+        app:cardElevation="@dimen/_10sdp"
+        app:cardCornerRadius="@dimen/_2sdp"
+        app:cardBackgroundColor="@color/white"
+        app:cardMaxElevation="@dimen/_2sdp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/createCategoryIcon"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_100sdp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:src="@drawable/category" />
+
+            <TextView
+                android:id="@+id/createCategoryText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/createCategoryIcon"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:fontFamily="sans-serif-medium"
+                android:letterSpacing="0.4"
+                android:text="Category"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12ssp"
+                android:textStyle="italic" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/bookImageItem"
+        android:layout_width="@dimen/_60sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_6sdp"
+        android:layout_marginEnd="@dimen/_6sdp"
+        android:layout_marginBottom="@dimen/_6sdp"
+        android:src="@drawable/categoryblack" />
+
+    <TextView
+        android:id="@+id/bookTitleItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/_16sdp"
+        android:layout_toEndOf="@id/bookImageItem"
+        android:text="Harry Bouter"
+        android:textSize="@dimen/_16ssp" />
+
+    <TextView
+        android:id="@+id/bookCreatedYearItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:text="1966"
+        android:textSize="@dimen/_12ssp" />
+
+    <ImageView
+        android:id="@+id/bookFavouriteHeartIcon"
+        android:layout_width="@dimen/_20sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:src="@drawable/favoriteheart" />
+
+
+</RelativeLayout>
